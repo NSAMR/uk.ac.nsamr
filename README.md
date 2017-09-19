@@ -30,8 +30,8 @@ Design:
   * FontAwesome
 
 ## Step by step notes for setting up the site on any machine
-1. **Clone nsamr.ac.uk repo**
-2. **Install WordPress**  
+### 1. Clone nsamr.ac.uk repo 
+### 2. Install WordPress 
 If on our server:
 * Use Softaculous installer
 * Set the database details to something sensible and write them down
@@ -48,37 +48,43 @@ If local:
 Both cases:
 * It would be a good idea to add your public key to .ssh/authorized_keys via the filebrowser (either via SSH or in cPanel)
 
-3. **Set up WordPress network**  
+### 3. Set up WordPress network 
 In network admin dashboard:
 * TODO: Network Settings choices
 
-4. **Install theme and plugins**
+### 4. Install theme and plugins
 In network admin dashboard:
-* Upload Scalia theme's zip file (in gDrive) -- this is a parent of the NSAMR theme so needs to be installed first
-* Upload NSAMR theme's zip file (in gDrive)
-* Activate NSAMR theme in Appearance --> Themes
-* Install all plugins it wants, both required and recommended
+* Upload Scalia theme's zip file (in gDrive)
+* Activate Scalia theme in Appearance --> Themes
+* Network-activate it too
+* Network-deactivate and then delete all other themes
 
-5. **Install extra plugins**
-In network admin dashboard: Plugins --> Add New (blue button), install and network-activate:
+In NSAMR site dashboard:
+* Install all plugins the theme wants, both required and recommended
+
+then in network admin dashboard again:
+* Network-activate all the plugins
+
+### 5. Install extra plugins
+In network admin dashboard: 
+Plugins --> Add New (blue button), install and network-activate:
 * Under Construction (https://wordpress.org/plugins/under-construction-page/)
 * Wordfence Security (https://wordpress.org/plugins/wordfence/)
-  * Wordfence --> Options: set to email alerts to it@nsamr.ac.uk
  
-6. **Set up plugins**
+### 6. Set up plugins ###
 In NSAMR site dashboard:
 * Plugins --> Under Construction --> Settings
   * --> Main: Activate: on
   * --> Content: Headliine "Coming soon..."
   * --> Content: remove text in "Content" box
-  * HTTP 200
-  * Administrator  
+* Wordfence --> Options
+  * Send email alerts to it@nsamr.ac.uk
 
-7. **Import template data** (TODO: export our own template site)
+### 7. Import template data (TODO: export our own template site)
 In NSAMR site dashboard:
 * Scalia Import --> Import main demo content (button) (this takes aaaages)
 
-8. **Set up how we want** (TODO: this is for old theme)
+### 8. Set up how we want (TODO: this is for old theme)
 * Set  logo  
   * Logo-long-80-168.png  
 * Set site icon  
@@ -86,14 +92,14 @@ In NSAMR site dashboard:
 * Create main menu   
   * Remove Revolution pages -- broken (thanks Assan)  
 * Create right header top widget  
-* Social share (“Crazy Share Buttons”)  
+* Social44 share (“Crazy Share Buttons”)  
 * Set home to static page  
   * Settings → Reading  
 * Set to Home Carousel possibly  
 
-9. **PLAY!**
+### 9. PLAY!
 
-10. **Revel in own brilliance**
+### 10. Generally revel in own brilliance
 
 NB:
 Deactivate underconstruction when ready to launch
