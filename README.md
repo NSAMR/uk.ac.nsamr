@@ -30,9 +30,8 @@ Design:
   * FontAwesome
 
 ## Step by step notes for setting up the site on any machine
-**Clone nsamr.ac.uk repo**
-
-**Install WordPress**  
+1. **Clone nsamr.ac.uk repo**
+2. **Install WordPress**  
 If on our server:
 * Use Softaculous installer
 * Set the database details to something sensible and write them down
@@ -49,24 +48,24 @@ If local:
 Both cases:
 * It would be a good idea to add your public key to .ssh/authorized_keys via the filebrowser (either via SSH or in cPanel)
 
-**Set up WordPress network**  
+3. **Set up WordPress network**  
 In network admin dashboard:
 * TODO: Network Settings choices
 
-**Install theme and plugins**
+4. **Install theme and plugins**
 In network admin dashboard:
 * Upload Scalia theme's zip file (in gDrive) -- this is a parent of the NSAMR theme so needs to be installed first
 * Upload NSAMR theme's zip file (in gDrive)
 * Activate NSAMR theme in Appearance --> Themes
 * Install all plugins it wants, both required and recommended
 
-**Install extra plugins**
+5. **Install extra plugins**
 In network admin dashboard: Plugins --> Add New (blue button), install and network-activate:
 * Under Construction (https://wordpress.org/plugins/under-construction-page/)
 * Wordfence Security (https://wordpress.org/plugins/wordfence/)
   * Wordfence --> Options: set to email alerts to it@nsamr.ac.uk
  
-**Set up plugins**
+6. **Set up plugins**
 In NSAMR site dashboard:
 * Plugins --> Under Construction --> Settings
   * --> Main: Activate: on
@@ -75,11 +74,11 @@ In NSAMR site dashboard:
   * HTTP 200
   * Administrator  
 
-**Import template data** (TODO: export our own template site)
+7. **Import template data** (TODO: export our own template site)
 In NSAMR site dashboard:
 * Scalia Import --> Import main demo content (button) (this takes aaaages)
 
-**Set up how we want** (TODO: this is for old theme)
+8. **Set up how we want** (TODO: this is for old theme)
 * Set  logo  
   * Logo-long-80-168.png  
 * Set site icon  
@@ -92,11 +91,13 @@ In NSAMR site dashboard:
   * Settings → Reading  
 * Set to Home Carousel possibly  
 
-**PLAY!**
+9. **PLAY!**
 
-**Deactivate underconstruction when ready to launch**
+10. **Revel in own brilliance**
 
-**Revel in own brilliance**
+NB:
+Deactivate underconstruction when ready to launch
+
 
 ## Notes for theme development
 **Compile CSS for NSAMR theme**
