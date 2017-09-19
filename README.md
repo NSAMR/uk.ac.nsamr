@@ -54,15 +54,17 @@ In network admin dashboard:
 
 ### 4. Install theme and plugins
 In network admin dashboard:
-* Upload Scalia theme's zip file (in gDrive)
-* Activate Scalia theme in Appearance --> Themes
-* Network-activate it too
+* Upload Scalia theme's zip file (in gDrive) NB: Don't activate this...
+* Upload NSAMR Scalia's zip file (in gDrive) 
+* Activate NSAMR Scalia theme in Appearance --> Themes 
+* Network-activate NSAMR Scalia theme
 * Network-deactivate and then delete all other themes
 
 In NSAMR site dashboard:
+* Activate NSAMR Scalia theme
 * Install all plugins the theme wants, both required and recommended
 
-then in network admin dashboard again:
+Then in network admin dashboard again:
 * Network-activate all the plugins
 
 ### 5. Install extra plugins
@@ -85,17 +87,7 @@ In NSAMR site dashboard:
 * Scalia Import --> Import main demo content (button) (this takes aaaages)
 
 ### 8. Set up how we want (TODO: this is for old theme)
-* Set  logo  
-  * Logo-long-80-168.png  
-* Set site icon  
-  * logo-square-1000.png  
-* Create main menu   
-  * Remove Revolution pages -- broken (thanks Assan)  
-* Create right header top widget  
-* Social44 share (“Crazy Share Buttons”)  
-* Set home to static page  
-  * Settings → Reading  
-* Set to Home Carousel possibly  
+Follow Scalia's included instructions for setting up demo content in the first instance
 
 ### 9. PLAY!
 
