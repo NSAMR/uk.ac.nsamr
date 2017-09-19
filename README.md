@@ -87,8 +87,13 @@ In NSAMR site dashboard:
 * Scalia Import --> Import main demo content (button) (this takes aaaages)
 
 ### 8. Set up how we want (TODO: this is for old theme)
-Follow Scalia's included instructions for setting up demo content in the first instance
-
+* Follow Scalia's included instructions for setting up demo content in the first instance
+* Appearance --> Theme options --> General --> Identity
+  * Upload NSAMR logo of correct size to each option in 
+* Appearance --> Theme options --> General --> Colors --> Background and main colors:
+  * Background color for boxed layout: #586F7C
+  * Basic background color for website: 
+  * Top background color: 
 ### 9. PLAY!
 
 ### 10. Generally revel in own brilliance
