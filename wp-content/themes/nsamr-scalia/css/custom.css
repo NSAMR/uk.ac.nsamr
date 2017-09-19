@@ -396,7 +396,8 @@ h5,
 .woocommerce-cart-form.responsive .cart-item .sc-table .shop_table td.product-subtotal,
 .woocommerce table.shop_table.order-details thead tr th.product-name,
 .woocommerce table.shop_table.order-details thead tr th.product-total,
-.resp-tabs-list li {
+.resp-tabs-list li,
+.vc_tta-tabs .vc_tta-title-text {
 	font-family: 'Roboto Condensed';
 }
 
@@ -410,7 +411,8 @@ h5,
 .woocommerce-cart-form.responsive .cart-item .sc-table .shop_table td.product-subtotal,
 .woocommerce table.shop_table.order-details thead tr th.product-name,
 .woocommerce table.shop_table.order-details thead tr th.product-total,
-.resp-tabs-list li {
+.resp-tabs-list li,
+.vc_tta-tabs .vc_tta-title-text {
 	font-weight: 300;
 }
 
@@ -424,7 +426,8 @@ h5,
 .woocommerce-cart-form.responsive .cart-item .sc-table .shop_table td.product-subtotal,
 .woocommerce table.shop_table.order-details thead tr th.product-name,
 .woocommerce table.shop_table.order-details thead tr th.product-total,
-.resp-tabs-list li {
+.resp-tabs-list li,
+.vc_tta-tabs .vc_tta-title-text {
 	font-size: 24px;
 }
 
@@ -438,7 +441,8 @@ h5,
 .woocommerce-cart-form.responsive .cart-item .sc-table .shop_table td.product-subtotal,
 .woocommerce table.shop_table.order-details thead tr th.product-name,
 .woocommerce table.shop_table.order-details thead tr th.product-total,
-.resp-tabs-list li {
+.resp-tabs-list li,
+.vc_tta-tabs .vc_tta-title-text {
 	line-height: 34px;
 }
 
@@ -448,7 +452,8 @@ h6,
 .widget_meta li,
 .widget_rss li,
 .widget_archive li,
-.wpb_toggle {
+.wpb_toggle,
+.vc_toggle_title h4 {
 	font-family: 'Roboto Condensed';
 }
 
@@ -458,7 +463,8 @@ h6,
 .widget_meta li,
 .widget_rss li,
 .widget_archive li,
-.wpb_toggle {
+.wpb_toggle,
+.vc_toggle_title h4 {
 	font-weight: 300;
 }
 
@@ -468,7 +474,8 @@ h6,
 .widget_meta li,
 .widget_rss li,
 .widget_archive li,
-.wpb_toggle {
+.wpb_toggle,
+.vc_toggle_title h4 {
 	font-size: 20px;
 }
 
@@ -478,7 +485,8 @@ h6,
 .widget_meta li,
 .widget_rss li,
 .widget_archive li,
-.wpb_toggle {
+.wpb_toggle,
+.vc_toggle_title h4 {
 	line-height: 28px;
 }
 
@@ -836,7 +844,7 @@ input[type='submit'],
 }
 
 body {
-	background-color: #8b94a5;
+	background-color: #586F7C;
 }
 
 #page {
@@ -860,6 +868,8 @@ body .sc-table-style-2 tr:nth-child(2n) td,
 .sc-table .tabletolist.nrh > li > ul > li,
 .resp-tabs-container,
 .resp-tab-content,
+.sc-tabs-style-1 .sc_tabs_nav li.resp-tab-active,
+.sc-tour-style-1 .sc_tabs_nav li.resp-tab-active,
 .resp-tab-active,
 .sc-gallery .sc-gallery-thumbs-carousel-wrap .sc-gallery-item a,
 .pricing-title,
@@ -885,13 +895,15 @@ body .sc-table-style-2 tr:nth-child(2n) td,
 .blog-style-default article.no-image .post-image .sc-dummy,
 .project_info-item-style-1 .project_info-item .icon,
 .wpb_toggle,
+.vc_toggle_title,
 .page-title-style-2,
 .top-area-socials .socials-item a,
 .pricing-table-style-2 .highlighted .pricing-title-wrapper .pricing-title,
 .portfolio-item .image .button .button-corner,
 .portfolio .portfolio-item .overlay-line,
-.sc-tabs-style-1 .sc_tabs_nav li.resp-tab-active,
-.sc-tour-style-1 .sc_tabs_nav li.resp-tab-active,
+.sc-tabs-style-1 .sc_tabs_nav li.resp-tab-active a,
+.sc-tour-style-1 .sc_tabs_nav li.resp-tab-active a,
+.vc_tta-style-scalia-style-1 .vc_tta-tabs-list li.vc_tta-tab.vc_active a,
 .portfolio.portfolio-slider.full .portolio-slider-prev span,
 .portfolio.portfolio-slider.full .portolio-slider-next span,
 .quickfinder-item .quickfinder-animation,
@@ -920,7 +932,6 @@ body .sc-table-style-2 tr:nth-child(2n) td,
 .portfolio.hover-title .portfolio-item .caption .info a,
 .portfolio.hover-default .portfolio-item .image .overlay .links .caption .info a,
 .portfolio.hover-default .portfolio-item .image .overlay .links .caption .info span.sep,
-.sc-image a:after,
 .sc-gallery-hover-default .sc-gallery-preview-carousel-wrap:hover .sc-prev:after,
 .sc-gallery-hover-default .sc-gallery-preview-carousel-wrap:hover .sc-next:after,
 .sc-gallery-hover-default .sc-gallery-preview-carousel-wrap .sc-gallery-item a:after,
@@ -998,9 +1009,12 @@ ul.woocommerce-error li,
 .pricing-table-style-3 .pricing-footer,
 .sc-tabs-style-1 .sc_tabs_nav li,
 .sc-tour-style-1 .sc_tabs_nav li,
+.vc_tta-style-scalia-style-1 .vc_tta-tabs-list li a,
 .sc-tabs-style-1 .resp-accordion.resp-tab-active,
 .sc-tour-style-1 .resp-accordion.resp-tab-active,
 .sc-tabs-style-2 .resp-accordion.resp-tab-active,
+.vc_tta-style-scalia-style-1 .vc_tta-panel.vc_active .vc_tta-panel-heading,
+.vc_tta-style-scalia-style-2.vc_tta-tabs-position-top .vc_tta-panel.vc_active .vc_tta-panel-heading,
 .blog-style-timeline.blog-style-styled_list1 .item-post,
 .blog-style-default article .post-image .sc-dummy:after,
 .blog-style-default article.sticky .post-image .sc-dummy,
@@ -1037,9 +1051,12 @@ ul.woocommerce-error li,
 .sc-team-style-horizontal .team-person-phone,
 .widget_calendar caption,
 .resp-tab-active,
+.vc_tta-tab.vc_active .vc_tta-title-text,
+.vc_tta-tabs.vc_tta-style-scalia-style-2.vc_tta-tabs-position-top .vc_tta-tab.vc_active:before,
 .project_info-item-style-1 .project_info-item  .title,
 .post-author-info .name,
 .wpb_toggle,
+.vc_toggle_title h4,
 .account-tittle,
 .blog-style-timeline .post-time span,
 .blog.blog-style-masonry article .description .tags a {
@@ -1135,9 +1152,12 @@ form.cart .quantity .plus,
 .pricing-table-style-3 .pricing-column,
 .sc-tabs-style-1 .resp-tabs-container,
 .sc-tabs-style-1 .sc_tabs_nav li,
+.vc_tta-style-scalia-style-1 .vc_tta-tabs-list li.vc_tta-tab > a,
 .sc-tour-style-1 > .sc_tour_tabs_wrapper,
+.vc_tta-style-scalia-style-1 .vc_tta-panels,
 .sc-tour-style-1 .sc_tabs_nav li,
 .sc-tabs-style-2 .resp-accordion,
+.vc_tta.vc_general.vc_tta-style-scalia-style-2.vc_tta-tabs-position-top .vc_tta-panel-heading,
 .blog-style-timeline .post-text,
 .widget .sc-products-content,
 .widget_recent_entries ul,
@@ -1159,8 +1179,10 @@ form.cart .quantity .qty,
 .pricing-table-style-3 .highlighted .pricing-title,
 .widget .product-dummy-wrapper,
 .sc-tabs-style-2 .resp-tabs-container,
+.vc_tta-style-scalia-style-2.vc_tta-tabs-position-top .vc_tta-panels-container,
 .sc-tabs-style-1 .resp-accordion.resp-tab-active,
 .sc-tour-style-1 .resp-accordion.resp-tab-active,
+.vc_tta-style-scalia-style-1 .vc_tta-panel.vc_active .vc_tta-panel-heading,
 .widget_recent_entries ul li,
 .widget_nav_menu ul.menu,
 .widget_submenu > div > ul,
@@ -1185,11 +1207,16 @@ form.cart .quantity .qty,
 .woocommerce table.checkout-cart-info-table tr,
 .widget_recent_comments li,
 .sc-tabs-style-2 .resp-tabs-container,
+.vc_tta-style-scalia-style-2.vc_tta-tabs-position-top .vc_tta-panels-container,
 .sc-tour-style-2 .sc_tabs_nav li + li,
+.vc_tta-style-scalia-style-2.vc_tta-tabs-position-left .vc_tta-tabs-container li + li,
 .sc-tour-style-1 .resp-accordion,
 .sc-tour-style-2 .resp-accordion,
 .sc-tabs-style-1 .resp-accordion,
+.vc_tta.vc_general.vc_tta-style-scalia-style-1 .vc_tta-panel .vc_tta-panel-heading,
+.vc_tta.vc_tta-tabs.vc_tta-style-scalia-style-2.vc_tta-tabs-position-left .vc_tta-panel-heading,
 .wpb_toggle_content + .wpb_toggle,
+.vc_toggle + .vc_toggle .vc_toggle_title,
 .widget .product-dummy-wrapper,
 .widget_layered_nav ul li,
 .widget_nav_menu ul.menu,
@@ -1221,6 +1248,8 @@ form.cart .quantity .qty,
 .pricing-table-style-2 .pricing-row,
 .sc-tour-style-2 .resp-tabs-container,
 .sc-tabs-style-2 .sc_tabs_nav li + li,
+.vc_tta-style-scalia-style-2.vc_tta-tabs-position-top .vc_tta-tabs-container li + li,
+.vc_tta-style-scalia-style-2.vc_tta-tabs-position-left .vc_tta-panels-container,
 .widget_nav_menu ul.menu > li > a,
 .widget_nav_menu ul.menu > li > ul > li > ul > li > a,
 .widget_nav_menu ul.menu > li > ul > li > ul > li > ul > li > ul > li > a,
@@ -1233,6 +1262,7 @@ form.cart .quantity .qty,
 }
 .sc-table-style-2 .tabletolist .row_headers,
 .pricing-table-style-2 .pricing-row,
+.vc_tta-style-scalia-style-2.vc_tta-tabs-position-left .vc_tta-panels-container,
 .widget_nav_menu ul.menu > li > a,
 .widget_nav_menu ul.menu > li > ul > li > ul > li > a,
 .widget_nav_menu ul.menu > li > ul > li > ul > li > ul > li> ul > li > a,
@@ -1295,6 +1325,7 @@ sc-pagination .current,
 .sc-tour-style-1 .resp-tab-active,
 .sc-tour-style-1 > .sc_tour_tabs_wrapper,
 .sc-tabs-style-2 .resp-accordion,
+.vc_tta-style-scalia-style-2.vc_tta-tabs-position-top .vc_tta-panel .vc_tta-panel-heading,
 .blog-style-timeline .post-text,
 .widget_recent_entries,
 .project_info-item-style-1 .project_info-item,
@@ -1331,6 +1362,8 @@ textarea,
 .chosen-container-single .chosen-single,
 .chosen-container-single .chosen-single div,
 .edit-address-form .form-row .chosen-container-single .chosen-single div,
+.select2-container .select2-choice,
+.select2-container .select2-choice .select2-arrow,
 .sc-table thead + tbody tr:first-child td,
 .checkout-cart-info > td,
 .pricing-table-style-2 .pricing-price,
@@ -1399,6 +1432,7 @@ textarea,
 .checkbox-sign,
 .combobox-wrapper,
 .chosen-container-single .chosen-single,
+.select2-container .select2-choice,
 .sc-table,
 .sc-table table,
 .sc-table-responsive .tabletolist.nrh > li > ul,
@@ -1454,6 +1488,7 @@ textarea,
 .widget_layered_nav ul,
 ul.product_list_widget li,
 .sc-tabs-style-2 .resp-accordion,
+#page .vc_tta.vc_tta-tabs.vc_tta-style-scalia-style-2.vc_tta-tabs-position-top .vc_tta-panel-heading,
 #primary-menu.no-responsive > li.megamenu-enable > ul > li li > a,
 .blog.blog-style-masonry article.no-image .description,
 .sc-dropcap.sc-dropcap-shape-square .sc-dropcap-letter,
@@ -1471,7 +1506,8 @@ div.blog.blog-style-default article a.default:before,
 }
 @media (max-width: 768px) {
 	.sc-tabs.sc-tabs-style-1 .resp-tabs-container,
-	.sc-tour.sc-tour-style-1 .sc_tour_tabs_wrapper {
+	.sc-tour.sc-tour-style-1 .sc_tour_tabs_wrapper,
+	#page .vc_tta-tabs.vc_tta-style-scalia-style-1 .vc_tta-panels-container .vc_tta-panels {
 		border-radius: 4px;
 		-moz-border-radius: 4px;
 		-webkit-border-radius: 4px;
@@ -1481,6 +1517,7 @@ div.blog.blog-style-default article a.default:before,
 .combobox-wrapper .combobox-button,
 .chosen-container-single .chosen-single div,
 .edit-address-form .form-row .chosen-container-single .chosen-single div,
+.select2-container .select2-choice .select2-arrow,
 form.cart .quantity .plus,
 .shop_table .quantity .plus,
 .shop-widget-area .sc-products-content,
@@ -1584,6 +1621,7 @@ form.cart .quantity .minus,
 .block-navigation-prev a:before,
 .block-navigation-next a:after,
 h4.wpb_toggle_title_active:after,
+.vc_toggle_active .vc_toggle_title:after,
 .resp-accordion.resp-tab-active:after,
 .portfolio.hover-zooming-blur .portfolio-item .image .overlay .links .caption .info a,
 .portfolio.hover-zooming-blur .portfolio-item .image .overlay .links .caption .info span.sep,
@@ -2159,6 +2197,7 @@ div.blog article a.default:before,
 .project_info-item-style-2 .icon,
 .sc_accordion_header .ui-accordion-header-icon:before,
 .wpb_toggle:after,
+.vc_toggle_title:after,
 .widget_layered_nav ul li a:before,
 .widget .sc-contacts-address:before,
 .widget .sc-contacts-phone:before,
@@ -2210,6 +2249,8 @@ div.blog article a.default:before,
 .sc-gallery-hover-default .sc-gallery-preview-carousel-wrap:hover .sc-next:after,
 .sc-gallery-hover-default .sc-gallery-preview-carousel-wrap .sc-gallery-item a:after,
 .sc-gallery-hover-default .sc-gallery-preview-carousel-wrap .sc-gallery-item .sc-gallery-caption,
+.sc-image a:after,
+.gallery-item .overlay-content a.icon:before,
 .portfolio-item .image .overlay .links a.icon:before,
 .portfolio.hover-title .portfolio-item .caption .title,
 .portfolio.hover-title.columns-4 .portfolio-item .caption .title,
@@ -2280,12 +2321,14 @@ input[type="week"],
 textarea,
 .combobox-wrapper,
 .chosen-container,
+.select2-container,
 .checkbox-sign,
 .radio-sign {
 	background-color: #ffffff;
 }
 .combobox-wrapper .combobox-button:before,
-.chosen-container-single .chosen-single div:before {
+.chosen-container-single .chosen-single div:before,
+.select2-container .select2-choice .select2-arrow:before {
 	color: #ffffff;
 }
 
@@ -2308,6 +2351,7 @@ textarea,
 select,
 .combobox-wrapper .combobox-text,
 .chosen-container-single .chosen-single,
+.select2-container .select2-choice,
 .widget_product_search form:before {
 	color: #384554;
 }
@@ -2331,12 +2375,14 @@ textarea,
 .checkbox-sign,
 .radio-sign,
 .combobox-wrapper,
-.chosen-container-single .chosen-single {
+.chosen-container-single .chosen-single,
+.select2-container .select2-choice {
 	border: 1px solid #d2dae1;
 }
 .combobox-wrapper .combobox-button,
 .chosen-container-single .chosen-single div,
-.edit-address-form .form-row .chosen-container-single .chosen-single div {
+.edit-address-form .form-row .chosen-container-single .chosen-single div,
+.select2-container .select2-choice .select2-arrow {
 	background-color: #d2dae1;
 }
 
@@ -2346,12 +2392,12 @@ textarea,
 
 
 #colophon {
-	background-image: url('http://scalia-wptheme.loc/wp-content/themes/scalia/images/footer-bg.png');
+	background-image: url('http://nsamr.ac.uk/wp-content/themes/scalia/images/footer-bg.png');
 }
 
 .preloader:after,
 .loading:after {
-	background-image: url('http://scalia-wptheme.loc/wp-content/themes/scalia/images/preloader-2.gif');
+	background-image: url('http://nsamr.ac.uk/wp-content/themes/scalia/images/preloader-2.gif');
 }
 
 body.home .slideshow-preloader {
