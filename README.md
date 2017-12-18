@@ -54,11 +54,11 @@ In network admin dashboard:
 
 ### 4. Install theme and plugins
 In network admin dashboard:
-* Upload Scalia theme's zip file (in gDrive) NB: Don't activate this...
-* Upload NSAMR Scalia's zip file (in gDrive) 
+* Upload the Scalia theme's zip file (in gDrive)
+* Upload the NSAMR Scalia's zip file (in gDrive) -- this is a child theme of Scalia
 * Activate NSAMR Scalia theme in Appearance --> Themes 
 * Network-activate NSAMR Scalia theme
-* Network-deactivate and then delete all other themes
+* Network-deactivate and then delete all other themes except the parent Scalia an the child NSAMR Scalia
 
 In NSAMR site dashboard:
 * Activate NSAMR Scalia theme
@@ -83,12 +83,19 @@ In NSAMR site dashboard:
   * Send email alerts to it@nsamr.ac.uk
 
 ### 7. Import template data (TODO: export our own template site)
+Note: the Scalia importer only works if the parent Scalia theme is activated -- it's fine to switch back to NSAMR Scalia after importing.  
+
 In NSAMR site dashboard:
 * Scalia Import --> Import main demo content (button) (this takes aaaages)
 
 ### 8. Set up how we want (TODO: this is for old theme)
-Follow Scalia's included instructions for setting up demo content in the first instance
-
+* Follow Scalia's included instructions for setting up demo content in the first instance
+* Appearance --> Theme options --> General --> Identity
+  * Upload NSAMR logo of correct size to each option in 
+* Appearance --> Theme options --> General --> Colors --> Background and main colors:
+  * Background color for boxed layout: #586F7C
+  * Basic background color for website: 
+  * Top background color: 
 ### 9. PLAY!
 
 ### 10. Generally revel in own brilliance
@@ -121,7 +128,5 @@ Don’t commit compiled files, e.g.
 * config.rb (from compass)
 
 ## TODO
-* Do more than password hash
-* Salt the WordPress things
-* Get SSL cert (?https://letsencrypt.org/getting-started/)
+* Maor security
 
